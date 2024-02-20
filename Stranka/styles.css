@@ -9,6 +9,37 @@ body {
     justify-content: center;
     height: 100vh;
   }
+.icons{
+            width: 60px;
+        }
+        .footer {
+    position: absolute;
+    background-color: #c0c0c0;
+    padding: 50px 0; 
+    bottom: 0; 
+  width: 100%;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+  }
+  .two {
+   
+   flex: 2 1 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+
+
+}
+ 
+.box {
+   display: flex;
+}
   
   .google-logo {
     width: 600px; 
@@ -101,37 +132,7 @@ body {
     }
   }
 
-.icons{
-            width: 60px;
-        }
-        .footer {
-    position: absolute;
-    background-color: #c0c0c0;
-    padding: 50px 0; 
-    bottom: 0; 
-  width: 100%;
-  }
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  
-  }
-  .two {
-   
-   flex: 2 1 auto;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   
 
-
-}
- 
-.box {
-   display: flex;
-}
   
   /* Media query pro mobilní telefony */
   @media (max-width: 480px) {
