@@ -33,7 +33,7 @@ body {
   background-color: #fff;
   border-radius: 8px;
   padding: 20px;
-  box-shadow: 0 0 10px var(--box-shadow-color);
+  box-shadow: 0 4px 30px var(--box-shadow-color);
   text-align: center;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
