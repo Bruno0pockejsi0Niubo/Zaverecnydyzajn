@@ -2,6 +2,7 @@
   --primary-color: #202124;
   --secondary-color: #1a73e8;
   --light-secondary-color: #4dabf7;
+  --red-color: #db4437;
   --background-color: #f8f9fa;
   --box-shadow-color: rgba(0, 0, 0, 0.2);
   --black-color: #000000;
@@ -52,11 +53,17 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 24px;
-  font-size: 1.5em;
+  font-size: 3em;
   font-weight: bold;
   border-radius: 4px;
   padding: 12px 24px;
-  transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
+    font-size 0.3s ease-in-out;
+}
+
+.logo-container:hover {
+  color: var(--red-color);
+  font-size: 3.2em;
 }
 
 .input-group {
