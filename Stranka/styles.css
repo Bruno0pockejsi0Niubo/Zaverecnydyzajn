@@ -1,262 +1,149 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-.icons{
-            width: 60px;
-        }
-        .footer {
-    position: absolute;
-    background-color: #c0c0c0;
-    padding: 50px 0; 
-    bottom: 0; 
-  width: 100%;
-  }
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  
-  }
-  .two {
-   
-   flex: 2 1 auto;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   
-
-
-}
- 
-.box {
-   display: flex;
-}
-  
-  .google-logo {
-    width: 600px; 
-    height: 60px; 
-    background-color: #202124;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 24px;
-    font-size: 1.5em; 
-    font-weight: bold;
-    border-radius: 4px;
-    padding: 12px 24px;
-  }
-  
-  .content-block {
-    width: 80%;
-    background-color: #b7b1b1;
-    height: 10px;
-    margin-bottom: 8px;
-    border-radius: 4px;
-  }
-  
-  .sign-up-btn {
-    width: 500px; 
-    height: 50px;
-    background-color: #202124;
-    color: white;
-    padding: 12px 24px;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin-top: 24px; 
-  }
-
-
-  .input-group {
-    width: 80%;
-    margin-bottom: 16px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="password"] {
-    width: 100%;
-    padding: 16px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-  
-  input[type="text"]:focus,
-  input[type="email"]:focus,
-  input[type="password"]:focus {
-    outline: none;
-    border-color: #1a73e8;
-    box-shadow: 0 0 8px rgba(26, 115, 232, 0.2);
-  }
-  
-  
-  input::placeholder {
-    color: #999;
-  }
-
-/* Media query pro tablety */
-  @media (max-width: 768px) {
-    .google-logo {
-      width: 50%; 
-      height: auto; 
-      padding: 20px; 
-      font-size: 2em; 
-    }
-  
-    .sign-up-btn {
-      width: 50%; 
-      padding: 15px 20px; 
-    }
-  
-    .input-group input[type="text"],
-    .input-group input[type="email"],
-    .input-group input[type="password"] {
-      padding: 15px; 
-    }
-  }
-
-
-  
-  /* Media query pro mobilní telefony */
-  @media (max-width: 480px) {
-    .google-logo {
-      width: 50%; 
-      font-size: 1.7em; 
-      padding: 15px; 
-    }
-  
-    .sign-up-btn {
-      width: 50%; 
-      padding: 12px 15px; 
-    }
-  
-    .input-group {
-      width: 70%; 
-    }
-  
-    .input-group input[type="text"],
-    .input-group input[type="email"],
-    .input-group input[type="password"] {
-      padding: 12px; 
-    }
-  }
-body {
   font-family: Arial, sans-serif;
-  background-color: #FFFFFF;
+  background-color: #f8f9fa;
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
-
-.navigation {
-  width: 90%;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
+.icons {
+  width: 60px;
 }
-
-.nav-icon {
-  width: 70px; 
-}
-
-.product-container {
-  position: relative;
-  margin: 20px 0;
-}
-
-.product-image {
-  width: 100%; 
-  max-width: 500px; 
-}
-
-.bottom-icons {
-  width: 100%;
-  padding: 20px;
-  display: flex;
-  justify-content: space-around;
-  position: fixed;
+.footer {
+  position: absolute;
+  background-color: #c0c0c0;
+  padding: 50px 0;
   bottom: 0;
-  background-color: #fff;
-  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two {
+  flex: 2 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.box {
+  display: flex;
+}
 
+.google-logo {
+  width: 600px;
+  height: 60px;
+  background-color: #202124;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 12px 24px;
+}
+
+.content-block {
+  width: 80%;
+  background-color: #b7b1b1;
+  height: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.sign-up-btn {
+  width: 500px;
+  height: 50px;
+  background-color: #202124;
+  color: white;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 24px;
+}
+
+.input-group {
+  width: 80%;
+  margin-bottom: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 16px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #1a73e8;
+  box-shadow: 0 0 8px rgba(26, 115, 232, 0.2);
+}
+
+input::placeholder {
+  color: #999;
+}
+
+/* Media query pro tablety */
 @media (max-width: 768px) {
-  .product-container {
-      margin: 100px 0; 
+  .google-logo {
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    font-size: 2em;
   }
 
-  .product-image {
-      width: 100%; 
-      max-width: 500px; 
+  .sign-up-btn {
+    width: 50%;
+    padding: 15px 20px;
+  }
+
+  .input-group input[type="text"],
+  .input-group input[type="email"],
+  .input-group input[type="password"] {
+    padding: 15px;
   }
 }
-.col-sm-2 {
-            background-color: #c7c7c7;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-        }
 
-        .col-sm-2 img {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            margin: 20px;
-        }
+/* Media query pro mobilní telefony */
+@media (max-width: 480px) {
+  .google-logo {
+    width: 50%;
+    font-size: 1.7em;
+    padding: 15px;
+  }
 
-        .col-sm-10 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+  .sign-up-btn {
+    width: 50%;
+    padding: 12px 15px;
+  }
 
-        .col-sm-10 .oblek {
-            background-color: #F1F1F1;
-            margin: 10px;
-        }
+  .input-group {
+    width: 70%;
+  }
 
-        .col-sm-10 img {
-            width: 150px;
-            height: 150px;
-        }
-
-        footer {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #a3a3a3;
-            padding: 10px;
-        }
-
-        footer i {
-            font-size: 3em;
-            margin: 0 20px;
-            padding: 0 5vw;
-            color: rgb(78, 78, 78);
-        }
-
-        footer i:hover {
-            cursor: pointer;
-        }
+  .input-group input[type="text"],
+  .input-group input[type="email"],
+  .input-group input[type="password"] {
+    padding: 12px;
+  }
+}
